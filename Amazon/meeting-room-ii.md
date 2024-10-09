@@ -6,13 +6,13 @@
 
 
 ## Constraints
-- 1 <= intervals.length <= 10<sup>4</sup>
-- 0 <= $start_i$ < $end_i$ <= 10<sup>6</sup>
+- \(1 \leq \text{intervals.length} \leq 10^4\)
+- \(0 \leq start_i < end_i \leq 10^6\)
 
 ## Test Cases
-1. **Input:** intervals = \[[0,30],[5,10],[15,20]]
+1. **Input:** intervals = \[[0,30],[5,10],[15,20]]<br>
 **Output:** 2
-2. **Input:** intervals = \[[7,10],[2,4]]
+2. **Input:** intervals = \[[7,10],[2,4]]<br>
 **Output:** 1
 
 ## Approach / Intuition - 1
@@ -30,9 +30,9 @@
 
 ## Complexity
 ##### Time Complexity
-- $ O(N*log N) $
+- \(O(N \log N)\)
 ##### Space Complexity
-- $ O(N) $
+- \(O(N)\)
 
 ## Code
 ```cpp
@@ -64,9 +64,9 @@ public:
 
 ## Complexity
 ##### Time Complexity
-- $ O(N*log N) $
+- \(O(N \log N)\)
 ##### Space Complexity
-- $ O(N) $
+- \(O(N)\)
 
 ## Code
 ```cpp
