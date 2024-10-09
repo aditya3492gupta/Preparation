@@ -6,8 +6,9 @@
 
 
 ## Constraints
-- \(1 \leq \text{intervals.length} \leq 10^4\)
-- \(0 \leq start_i < end_i \leq 10^6\)
+- 1 <= intervals.length <= 10<sup>4</sup>
+- 0 <= $start_i$ < $end_i$ <= 10<sup>6</sup>
+
 
 ## Test Cases
 1. **Input:** intervals = \[[0,30],[5,10],[15,20]]<br>
@@ -24,13 +25,13 @@
 1. Sort the meeting intervals in ascending order by start time.
 2. Create a min-heap / priority queue.
 3. Iterate through the intervals
-   3.1. If the queue is empty and the end time of the top meeting of the queue is less than or equal to start time of the current meeting then pop the top meeting out of the queue as the meeting is over and new meeting needs to be started.
-   3.2. Push the end time of the current meeting.
+   - If the queue is empty and the end time of the top meeting of the queue is less than or equal to start time of the current meeting then pop the top meeting out of the queue as the meeting is over and new meeting needs to be started.
+   - Push the end time of the current meeting.
 4. Return the size of the queue as it will tell us about the minimum number of meeting rooms required.
 
 ## Complexity
 ##### Time Complexity
-- \(O(N \log N)\)
+- \(O(N *log N)\)
 ##### Space Complexity
 - \(O(N)\)
 
@@ -64,7 +65,7 @@ public:
 
 ## Complexity
 ##### Time Complexity
-- \(O(N \log N)\)
+- \(O(N *log N)\)
 ##### Space Complexity
 - \(O(N)\)
 
