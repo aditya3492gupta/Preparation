@@ -1,4 +1,4 @@
-# Meeting Rooms 2
+# [Meeting Rooms 2](https://leetcode.com/problems/meeting-rooms-ii/description/)
 
 ## Problem Statement
 - Given an array of meeting time intervals `intervals` where `intervals[i] = [start[i], end[i]]`, return the minimum number of conference rooms required.
@@ -31,7 +31,7 @@
 
 ## Complexity
 ##### Time Complexity
-- \(O(N *log N)\)
+- \(O(N * log N)\)
 ##### Space Complexity
 - \(O(N)\)
 
@@ -65,7 +65,7 @@ public:
 
 ## Complexity
 ##### Time Complexity
-- \(O(N *log N)\)
+- \(O(N * log N)\)
 ##### Space Complexity
 - \(O(N)\)
 
