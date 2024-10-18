@@ -12,7 +12,7 @@
 ## Test Cases
 1. **Input:** root = [4,2,6,1,3,5,7], target = 2 <br>
 **Output:** \[[2,1],[4,3,6,null,null,5,7]]
-1. **Input:** root = [1], target = 1<br>
+2. **Input:** root = [1], target = 1<br>
 **Output:** \[[1],[]]
 
 ## Approach / Intuition 

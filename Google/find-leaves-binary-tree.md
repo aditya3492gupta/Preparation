@@ -15,7 +15,7 @@
 ## Test Cases
 1. **Input:** root = [1,2,3,4,5] <br>
 **Output:** \[[4,5,3],[2],[1]]
-1. **Input:** root = [1]<br>
+2. **Input:** root = [1]<br>
 **Output:** \[[1]]
 
 ## Approach / Intuition 

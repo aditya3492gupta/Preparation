@@ -18,7 +18,7 @@
 ## Test Cases
 1. **Input:** root = [] <br>
 **Output:** []
-1. **Input:** root = [1,2,3,4,5]<br>
+2. **Input:** root = [1,2,3,4,5]<br>
 **Output:** [4,5,2,null,null,3,1]
 
 ## Approach / Intuition 
