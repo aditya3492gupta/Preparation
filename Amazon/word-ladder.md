@@ -52,8 +52,7 @@
 ```cpp
 class Solution {
 public:
-    int ladderLength(string beginWord, string endWord,
-                     vector<string>& wordList) {
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         queue<pair<string, int>> q;
         q.push({beginWord, 1});
         unordered_set<string> st(wordList.begin(), wordList.end());
