@@ -15,7 +15,7 @@
 ## Test Cases
 1. **Input:** n = 2 <br>
 **Output:** ["11","69","88","96"]
-2. **Input:**n = 1 <br>
+2. **Input:** n = 1 <br>
 **Output:** ["0","1","8"]
 
 
